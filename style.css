@@ -1,46 +1,74 @@
-* {
-    margin: 0%;
-    padding: 0%;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.box {
-    width: 240px;
-    height: 240px;
-    background-color: violet;
-    padding: 8px;
-    border-radius: 8px;
-    border: 1px solid black;
-    display: flex;
-    gap: 8px;
+h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77.45px;
+    text-align: center;
+    color: white;
+}   
+
+h1>span{
+    font-weight: 700;
+    color: #F8FD0D;
 }
 
-.boxy {
-    width: 50px;
-    height: 50px;
-    background-color: #f7941f;
-    border: 1px solid black;
-    border-radius: 8px;
+body{
+    background-color: #CD5D5D;
 }
-
-.boxes-wrapper {
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+nav{
     display: flex;
     align-items: center;
-    gap: 40px;
+    justify-content: space-between;
+    padding: 50px;
+}
+nav p{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.41px;
+    text-align: center;
 
 }
-
-.box2 {
-    flex-direction: column;
+.cards-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
-.box3{
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-.box4{
-flex-direction: row;
-justify-content: space-between;
+.card{
+    background-color: black;
+    color: white;
 }
 
+.card-text{
+    padding: 18px 30px 24px 30px;
+}
+.card-title{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+.card-des{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-align: center;
+    margin-top: 18px;
+}
+img{
+    width: 100%;
+}
 
